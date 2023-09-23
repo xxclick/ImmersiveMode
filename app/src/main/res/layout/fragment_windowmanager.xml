@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="80dp">
+
+    <CheckBox
+        android:id="@+id/flag_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FLAG_FULLSCREEN" />
+
+    <CheckBox
+        android:id="@+id/flag_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FLAG_LAYOUT_NO_LIMITS" />
+
+    <CheckBox
+        android:id="@+id/flag_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FLAG_LAYOUT_IN_SCREEN" />
+
+
+</LinearLayout>
